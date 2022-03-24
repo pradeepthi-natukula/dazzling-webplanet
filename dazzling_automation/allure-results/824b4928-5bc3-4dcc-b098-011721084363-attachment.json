@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "body > div > div.top-right.links > a:nth-child(1)"
+}

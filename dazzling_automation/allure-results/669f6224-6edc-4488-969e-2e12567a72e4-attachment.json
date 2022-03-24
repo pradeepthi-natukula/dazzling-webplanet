@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "body > div > div.login-box-body > form > div.row > div.col-xs-4 > button"
+}

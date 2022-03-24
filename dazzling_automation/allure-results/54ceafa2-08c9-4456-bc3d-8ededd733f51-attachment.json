@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "body > div.wrapper > div > div > div.box.box-primary > div > form > select:nth-child(6)"
+}

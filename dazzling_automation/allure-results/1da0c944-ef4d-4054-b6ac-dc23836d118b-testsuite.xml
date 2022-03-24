@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641997290306' stop='1641997290314'>
+    <name>The Internet Guinea Pig Website: As a registered member, I can search the orders</name>
+    <title>The Internet Guinea Pig Website: As a registered member, I can search the orders</title>
+    <test-cases>
+        <test-case start='1641997290307' status='passed' stop='1641997290308'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1641997290309' status='broken' stop='1641997290312'>
+            <name>Given I am on the home page of the localhut</name>
+            <title>Given I am on the home page of the localhut</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am on the home page of the localhut" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I am on the home page of the localhut" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\dazzling_automation\features\orders.feature):1:1
+                	at Scenario(As a registered member, I can search the orders):3:5
+                	at Step(I am on the home page of the localhut):4:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1641997290312' status='passed' stop='1641997290313'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

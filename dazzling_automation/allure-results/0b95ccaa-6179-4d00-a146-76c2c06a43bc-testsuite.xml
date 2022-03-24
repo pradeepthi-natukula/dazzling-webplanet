@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642031760778' stop='1642031760787'>
+    <name>The Internet Guinea Pig Website: As a user, I can log into the register panel</name>
+    <title>The Internet Guinea Pig Website: As a user, I can log into the register panel</title>
+    <test-cases>
+        <test-case start='1642031760779' status='passed' stop='1642031760783'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642031760783' status='broken' stop='1642031760785'>
+            <name>Given I am on the register page of the admin panel</name>
+            <title>Given I am on the register page of the admin panel</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am on the register page of the admin panel" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I am on the register page of the admin panel" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\dazzling_automation\features\register.feature):1:1
+                	at Scenario(As a user, I can log into the register panel):3:5
+                	at Step(I am on the register page of the admin panel):4:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1642031760785' status='broken' stop='1642031760785'>
+            <name>When I register with "Pradeepthi" and "pradeepthi.natukula@gmail.com" and "Register123" and "Register123" click the register button</name>
+            <title>When I register with "Pradeepthi" and "pradeepthi.natukula@gmail.com" and "Register123" and "Register123" click the register button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I register with "Pradeepthi" and "pradeepthi.natukula@gmail.com" and "Register123" and "Register123" click the register button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I register with "Pradeepthi" and "pradeepthi.natukula@gmail.com" and "Register123" and "Register123" click the register button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\dazzling_automation\features\register.feature):1:1
+                	at Scenario(As a user, I can log into the register panel):3:5
+                	at Step(I register with "Pradeepthi" and "pradeepthi.natukula@gmail.com" and "Register123" and "Register123" click the register button):5:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1642031760785' status='passed' stop='1642031760786'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

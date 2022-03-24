@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643377090837' stop='1643377090869'>
+    <name>The LocalHut Website: As a user, I can log into the secure area</name>
+    <title>The LocalHut Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1643377090839' status='passed' stop='1643377090841'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1643377090841' status='broken' stop='1643377090866'>
+            <name>Given I am on the LocalHut Website</name>
+            <title>Given I am on the LocalHut Website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: Page is not defined</message>
+                <stack-trace>ReferenceError: Page is not defined
+                    at World.&lt;anonymous> (C:\Users\dazzling_automation\features\step-definitions\/login.js:10:5)
+                    at World.executeAsync (C:\Users\dazzling_automation\node_modules\@wdio\utils\build\shim.js:325:27)
+                    at World.testFrameworkFnWrapper (C:\Users\dazzling_automation\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Object.wrapPromiseWithTimeout (C:\Users\dazzling_automation\node_modules\@cucumber\cucumber\src\time.ts:56:10)
+                    at Object.run (C:\Users\dazzling_automation\node_modules\@cucumber\cucumber\src\user_code_runner.ts:86:16)
+                    at Object.run (C:\Users\dazzling_automation\node_modules\@cucumber\cucumber\src\runtime\step_runner.ts:50:20)
+                    at TestCaseRunner.invokeStep (C:\Users\dazzling_automation\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:130:12)
+                    at TestCaseRunner.runStep (C:\Users\dazzling_automation\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:307:20)
+                    at C:\Users\dazzling_automation\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:210:36</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1643377090866' status='undefined'>
+            <name>When I login with "admin@localhut.co.uk" and "Admin@123!" and click login button</name>
+            <title>When I login with "admin@localhut.co.uk" and "Admin@123!" and click login button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1643377090867' status='undefined'>
+            <name>Then I should see the LocalHut welcome screen</name>
+            <title>Then I should see the LocalHut welcome screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1643377090867' status='passed' stop='1643377090868'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

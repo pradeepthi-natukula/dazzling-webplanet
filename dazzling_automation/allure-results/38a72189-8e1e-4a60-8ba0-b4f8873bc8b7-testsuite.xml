@@ -1,0 +1,126 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641990832481' stop='1641990886473'>
+    <name>The Internet Guinea Pig Website: As a user, I can log into the register panel</name>
+    <title>The Internet Guinea Pig Website: As a user, I can log into the register panel</title>
+    <test-cases>
+        <test-case start='1641990832482' status='passed' stop='1641990832483'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1641990832484' status='passed' stop='1641990837670'>
+            <name>Given I am on the register page of the admin panel</name>
+            <title>Given I am on the register page of the admin panel</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1641990832486' status='passed' stop='1641990833923'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d60b6c1d-808d-48b8-8445-987786937963-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641990833925' status='passed' stop='1641990833953'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fc112175-59c8-4f14-ae92-dea4c351b7d2-attachment.json' type='application/json' size='93'/>
+                        <attachment title='Response' source='531c48f1-9f0c-42c3-a4bb-1cf9297c4f2b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1641990833961' status='passed' stop='1641990834663'>
+                    <name>POST /session/:sessionId/element/2fb17c7f-2da1-4056-8a37-56e0f7c9fec6/click</name>
+                    <title>POST /session/:sessionId/element/2fb17c7f-2da1-4056-8a37-56e0f7c9fec6/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1641990837670' status='broken' stop='1641990886471'>
+            <name>When I register with "Pradeepthi" and "pradeepthi.natukula@gmail.com" and "Register123" and "Register123" click the register button</name>
+            <title>When I register with "Pradeepthi" and "pradeepthi.natukula@gmail.com" and "Register123" and "Register123" click the register button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps>
+                <step start='1641990837671' status='broken' stop='1641990886471'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='92db6946-a8ed-4396-a719-92f7c07b7736-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>chrome not reachable
+                  (Session info: chrome=97.0.4692.71)
+                Backtrace:
+                	Ordinal0 [0x0093FDC3+2555331]
+                	Ordinal0 [0x008D77F1+2127857]
+                	Ordinal0 [0x007D2CD0+1060048]
+                	Ordinal0 [0x007C7BE2+1014754]
+                	Ordinal0 [0x007C83E8+1016808]
+                	Ordinal0 [0x007C9C02+1022978]
+                	Ordinal0 [0x007C3AB9+998073]
+                	Ordinal0 [0x007D4040+1065024]
+                	Ordinal0 [0x00826DC2+1404354]
+                	Ordinal0 [0x00817976+1341814]
+                	Ordinal0 [0x007F36B6+1193654]
+                	Ordinal0 [0x007F4546+1197382]
+                	GetHandleVerifier [0x00AD9622+1619522]
+                	GetHandleVerifier [0x00B8882C+2336844]
+                	GetHandleVerifier [0x009D23E1+541697]
+                	GetHandleVerifier [0x009D1443+537699]
+                	Ordinal0 [0x008DD18E+2150798]
+                	Ordinal0 [0x008E1518+2168088]
+                	Ordinal0 [0x008E1660+2168416]
+                	Ordinal0 [0x008EB330+2208560]
+                	BaseThreadInitThunk [0x75B66739+25]
+                	RtlGetFullPathName_UEx [0x77A98AFF+1215]
+                	RtlGetFullPathName_UEx [0x77A98ACD+1165]
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1641990886472' status='passed' stop='1641990886472'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

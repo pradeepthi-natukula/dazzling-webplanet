@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#sidebar-wrapper > section > ul > li:nth-child(5) > a"
+}

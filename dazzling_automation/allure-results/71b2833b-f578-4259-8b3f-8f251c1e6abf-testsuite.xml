@@ -1,0 +1,177 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643378144068' stop='1643378151449'>
+    <name>The LocalHut Website: As a user, I can log into the secure area</name>
+    <title>The LocalHut Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1643378144069' status='passed' stop='1643378144071'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1643378144072' status='passed' stop='1643378148310'>
+            <name>Given I am on the LocalHut Website</name>
+            <title>Given I am on the LocalHut Website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps>
+                <step start='1643378144075' status='passed' stop='1643378144631'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ad43d526-721e-4a08-b013-ef20c0edc5fd-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1643378144633' status='passed' stop='1643378144692'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3141ae8a-a390-48cc-a4aa-9c0c153c940b-attachment.json' type='application/json' size='93'/>
+                        <attachment title='Response' source='d8b8521e-47bc-4c70-ad3f-5267444088ca-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1643378144701' status='passed' stop='1643378145295'>
+                    <name>POST /session/:sessionId/element/3349de13-b31b-46b6-9657-878effd566b5/click</name>
+                    <title>POST /session/:sessionId/element/3349de13-b31b-46b6-9657-878effd566b5/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1643378148310' status='passed' stop='1643378151431'>
+            <name>When I login with "admin@localhut.co.uk" and "Admin@123!" and click login button</name>
+            <title>When I login with "admin@localhut.co.uk" and "Admin@123!" and click login button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps>
+                <step start='1643378148311' status='passed' stop='1643378148341'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='868d5c79-91c2-4979-bca7-4f29d44bc5d2-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='562e5774-4a05-49df-bf81-7c9b35d467fd-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1643378148344' status='passed' stop='1643378148390'>
+                    <name>POST /session/:sessionId/element/1f354eeb-fdd4-46fb-97f8-b98074b73b7c/clear</name>
+                    <title>POST /session/:sessionId/element/1f354eeb-fdd4-46fb-97f8-b98074b73b7c/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1643378148395' status='passed' stop='1643378148480'>
+                    <name>POST /session/:sessionId/element/1f354eeb-fdd4-46fb-97f8-b98074b73b7c/value</name>
+                    <title>POST /session/:sessionId/element/1f354eeb-fdd4-46fb-97f8-b98074b73b7c/value</title>
+                    <attachments>
+                        <attachment title='Request' source='4d07b126-fb49-482e-b139-5c65cf41f2b3-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1643378148481' status='passed' stop='1643378148520'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cd8f438d-fb34-476f-adc5-e08df212c4a7-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='84938539-e293-4f09-bc0a-f7cc023dc5de-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1643378148523' status='passed' stop='1643378148581'>
+                    <name>POST /session/:sessionId/element/e40c8425-dfe8-434e-95e2-4d7704b125e7/clear</name>
+                    <title>POST /session/:sessionId/element/e40c8425-dfe8-434e-95e2-4d7704b125e7/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1643378148581' status='passed' stop='1643378148657'>
+                    <name>POST /session/:sessionId/element/e40c8425-dfe8-434e-95e2-4d7704b125e7/value</name>
+                    <title>POST /session/:sessionId/element/e40c8425-dfe8-434e-95e2-4d7704b125e7/value</title>
+                    <attachments>
+                        <attachment title='Request' source='b1b7b4a1-b1ce-4799-bed1-4f9ef95e9cd1-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1643378148658' status='passed' stop='1643378148689'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4e489278-8495-4c99-b453-e464bb71f4a1-attachment.json' type='application/json' size='116'/>
+                        <attachment title='Response' source='16ad01d5-71f2-49ca-82a8-933dfefe3b2d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1643378148690' status='passed' stop='1643378149429'>
+                    <name>POST /session/:sessionId/element/0e6efd0b-4715-4e53-b61b-0d46b4a40173/click</name>
+                    <title>POST /session/:sessionId/element/0e6efd0b-4715-4e53-b61b-0d46b4a40173/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1643378151431' status='broken' stop='1643378151446'>
+            <name>Then I should see the LocalHut welcome screen</name>
+            <title>Then I should see the LocalHut welcome screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: _confirm.default.verifyIcon is not a function</message>
+                <stack-trace>TypeError: _confirm.default.verifyIcon is not a function
+                    at World.&lt;anonymous> (C:\Users\dazzling_automation\features\step-definitions\/login.js:32:22)
+                    at World.executeAsync (C:\Users\dazzling_automation\node_modules\@wdio\utils\build\shim.js:325:27)
+                    at World.testFrameworkFnWrapper (C:\Users\dazzling_automation\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)
+                    at Object.wrapPromiseWithTimeout (C:\Users\dazzling_automation\node_modules\@cucumber\cucumber\src\time.ts:56:10)
+                    at Object.run (C:\Users\dazzling_automation\node_modules\@cucumber\cucumber\src\user_code_runner.ts:86:16)
+                    at Object.run (C:\Users\dazzling_automation\node_modules\@cucumber\cucumber\src\runtime\step_runner.ts:50:20)
+                    at TestCaseRunner.invokeStep (C:\Users\dazzling_automation\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:130:12)
+                    at TestCaseRunner.runStep (C:\Users\dazzling_automation\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:307:20)
+                    at C:\Users\dazzling_automation\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:210:36
+                    at TestCaseRunner.aroundTestStep (C:\Users\dazzling_automation\node_modules\@cucumber\cucumber\src\runtime\test_case_runner.ts:162:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1643378151446' status='passed' stop='1643378151449'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
